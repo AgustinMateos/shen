@@ -31,13 +31,13 @@
             <ul class="uk-navbar-nav">
                
                 <li>
-                    <a href="#">Productos</a>
+                    <a href="#Productos">Productos</a>
                 </li>
                 <li>
-                    <a href="#">Acerca</a>
+                    <a href="#Acerca">Acerca</a>
                 </li>
-                <li><a href="#">Como Comprar?</a></li>
-                <li><a href="#">Comunicate</a></li>
+                <li><a href="#comoComprar">Como Comprar?</a></li>
+                <li><a href="./pages/contact.html">Comunicate</a></li>
             </ul>
     
         </div>
@@ -75,15 +75,15 @@
       <!--
     empieza card con texto "Acerca de Shen Te"
 -->
-    <div>
-        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-margin">
+        <div id="Acerca" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
         <div class="uk-card-media-left uk-cover-container">
             <img src="../imagenes/imagenAcercade.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
-        <div>
+        <div >
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Acerca de Shen Té</h3>
+                <h3  class="uk-card-title">Acerca de Shen Té</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum temporibus, deleniti praesentium dignissimos cum animi consequuntur velit tenelpa eum aut hic amet.</p>
             </div>
@@ -95,9 +95,9 @@
   <!--
     Empieza productos(infusiones y accesorios)
 -->
-<div id="index__productos__container" >
-<div class="index__productos__containerProductos">
-    <h1>Productos</h1></div>
+<div id="index__productos__container " >
+<div class="index__productos__containerProductos ">
+    <h1 id="Productos">Productos</h1></div>
    <div class="index__productos__container__productos__Titulos">
     <p>Infusiones</p>
     <p>Accesorios</p></div>
@@ -156,7 +156,7 @@
 -->
 <div>
     <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
-    <div>
+    <div id="comoComprar">
         <div class="uk-card index__mayoristas__container  uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <h3 class="uk-card-title">Mayoristas</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -170,17 +170,17 @@
     </div>
 </div>
 </div>
-    <div>
+    <div class="uk-margin">
     <p uk-margin class="index__comunicate__container__botton">
-        <button class="uk-button index__comunicate__botton uk-button-small">Comunicate</button>
+        <button  class="uk-button index__comunicate__botton uk-button-small">Comunicate</button>
     </p>
 </div>
     </div>
     </div>
 </main>
 <footer >
-    <div class="footer__container">
-        <div class="uk-section uk-section-muted">
+    <div >
+        <div class="uk-section footer__container">
             <div class="uk-container">
                 
                 <div class="index__footer__comunicate__container uk-child-width-1-4@m" uk-grid>
