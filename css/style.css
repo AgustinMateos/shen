@@ -1,19 +1,9 @@
 * {
     margin: 2px;
 }
-
-.index__productos__containerProductos {
-    display: flex;
-    justify-content: center;
+body {
+    background-color: #FFFCF8;
 }
-
-.index__productos__container__productos__Titulos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-
 
 
 /* clase por defecto que me molesta en la alineacion de los titulos de los productos*/
@@ -43,11 +33,32 @@ address, dl, fieldset, figure, ol, p, pre, ul {
     padding-left: 43px;
 }
 
-*+.uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin {
-    margin-top: 40px;
-    width: 3000px;
+.uk-input, .uk-select, .uk-textarea {
+   
+    width: 600px;
+    border: 0 none;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
 }
-/* */
+
+
+/* index*/
+.index__productos__containerProductos {
+    display: flex;
+    justify-content: center;
+}
+
+.index__productos__container__productos__Titulos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
 
 .index__Background__Cards__Productos {
     background-color: #EEE8DC;
@@ -57,11 +68,6 @@ address, dl, fieldset, figure, ol, p, pre, ul {
     text-align: center;
 
 
-}
-
-
-body {
-    background-color: #FFFCF8;
 }
 
 
@@ -86,6 +92,14 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    color: white;
+
+}
+.index__comunicate__container__botton a {
+    
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .index__comunicate__botton {
@@ -158,7 +172,7 @@ body {
 }
 
 
-.contact__form__emailTelefono__container{display: flex;}
+.contact__form__emailTelefono__container{display: flex;width: 640px;}
 
 
 /*fontfamily*/
