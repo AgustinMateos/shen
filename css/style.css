@@ -17,6 +17,11 @@
 
 
 /* clase por defecto que me molesta en la alineacion de los titulos de los productos*/
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: #FFFCF8;
+}
+
+
 *+address,
 *+dl,
 *+fieldset,
@@ -32,6 +37,16 @@ address, dl, fieldset, figure, ol, p, pre, ul {
     margin: 0 0 0px 0;
 }
 
+.uk-h3, h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding-left: 43px;
+}
+
+*+.uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin {
+    margin-top: 40px;
+    width: 3000px;
+}
 /* */
 
 .index__Background__Cards__Productos {
@@ -45,7 +60,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 }
 
 
-.index__main {
+body {
     background-color: #FFFCF8;
 }
 
@@ -110,7 +125,45 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 .contact__section__map__container{width: 100%;}
 .contact__map__container{display: flex;justify-content: center;}
 .mapa{width: 100%;}
+.inputsForm {
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: #eee8dc;
+}
+.inputsFormEmail {
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color:  #eee8dc; 
+    width: 800px;
+}
+.inputsFormTelefono {
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: #eee8dc;
+    width: 800px;
+    margin-left: 35px;
+}
 
   /*Form*/
   .contact__form__container{width: 50%;}
-  .contact__informacion__container{display: flex;}
+  .contact__informacion__container{display: flex; justify-content: center;}
+  .contact__form__titulo__container{display: flex; justify-content: space-around;padding-left: 22px;}
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+}
+
+
+.contact__form__emailTelefono__container{display: flex;}
+
+
+/*fontfamily*/
+.font__productosyTexto{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px; 
+  
+}
