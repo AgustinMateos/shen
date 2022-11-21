@@ -1,0 +1,94 @@
+* {
+    margin: 2px;
+}
+
+.index__productos__containerProductos {
+    display: flex;
+    justify-content: center;
+}
+
+.index__productos__container__productos__Titulos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.indexCon
+
+/* clase por defecto que me molesta en la alineacion de los titulos de los productos*/
+*+address,
+*+dl,
+*+fieldset,
+*+figure,
+*+ol,
+*+p,
+*+pre,
+*+ul {
+    margin-top: 00px;
+}
+
+/* */
+
+.index__Background__Cards__Productos {
+    background-color: #EEE8DC;
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    display: block;
+    text-align: center;
+
+
+}
+
+
+.index__main {
+    background-color: #FFFCF8;
+}
+
+
+.index__mayoristas__container {
+    background-color: #efc7c8;
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.index__eventos__container {
+    background-color: rgba(24, 60, 150, 0.333);
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.index__comunicate__container__botton {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.index__comunicate__botton {
+
+    background-color: #a9803c;
+    color: rgb(255, 255, 255);
+    border: 1px solid #e5e5e5;
+
+
+}
+
+.index__footer__comunicate__imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index__footer__comunicate__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.footer__container{background-color: #eee8dc;}
