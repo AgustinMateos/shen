@@ -63,6 +63,9 @@ address, dl, fieldset, figure, ol, p, pre, ul {
     justify-content: space-evenly;
     margin: 20px;
 }
+.index__productos__container__productos__Titulos p:hover {
+    text-decoration: underline;
+}
 .contact__form__container__titulo{padding-left: 38px;}
 
 .index__Background__Cards__Productos {
