@@ -3,6 +3,7 @@
     color: #312e2e;
     
 }
+li a:hover{text-decoration: underline;}
 h1{color: #312e2e;}
 body {
     background-color: #FFFCF8;
