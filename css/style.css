@@ -276,6 +276,12 @@ address, dl, fieldset, figure, ol, p, pre, ul {
     }
      
    }
+   @media screen and (max-width:461px) {
+.contact__form__container__titulo {
+        padding-left: 0px;
+    }
+   
+   }
 
    @media screen and (max-width:460px) {
 
@@ -293,8 +299,10 @@ address, dl, fieldset, figure, ol, p, pre, ul {
         height: 60px;
     }
     .uk-grid>* {
-         padding-left: 0px; 
+         padding-left: 0px;
+          
     }
+    .marginproductos{margin-left: 1px;}
    }
 
    @media screen and (max-width:394px) {
