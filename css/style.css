@@ -52,7 +52,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 }
 
 
-/* index*/
+/* index    grid productos e infusiones*/
 .index__productos__containerProductos {
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 .index__productos__container__productos__Titulos p:hover {
     text-decoration: underline;
 }
-.contact__form__container__titulo{padding-left: 38px;}
+
 
 .index__Background__Cards__Productos {
     background-color: #EEE8DC;
@@ -80,7 +80,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 
 }
 
-
+/* index como comprar mayorista y productos*/
 .index__mayoristas__container {
     background-color: #efc7c8;
     color: #666;
@@ -168,7 +168,6 @@ Contacto*/
     margin-left: 35px;
 }
 
-  /*Form*/
   .contact__form__container{width: 50%;}
   .contact__informacion__container{display: flex; justify-content: center;}
   .contact__form__titulo__container{display: flex; justify-content: space-around;}
@@ -181,7 +180,7 @@ Contacto*/
     flex-direction: column;
 }
 
-
+.contact__form__container__titulo{padding-left: 38px;}
 .contact__form__emailTelefono__container{display: flex;width: 640px;}
 
 
