@@ -302,7 +302,14 @@ address, dl, fieldset, figure, ol, p, pre, ul {
          padding-left: 0px;
           
     }
-    .marginproductos{margin-left: 1px;}
+    .marginproductos{margin-left: 4px;}
+    .index__mayoristas__container {
+       
+        margin-left: 34px;
+    }
+    .index__eventos__container {
+        margin-left: 34px;
+    }
    }
 
    @media screen and (max-width:394px) {
