@@ -10,6 +10,8 @@ body {
 }
 
 .logo{width:150px; height:150px}
+
+
 /* clase por defecto que me molesta en la alineacion de los titulos de los productos*/
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background-color: #FFFCF8;
@@ -34,7 +36,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 .uk-h3, h3 {
     font-size: 1.5rem;
     line-height: 1.4;
-    font-family: 'Noto Serif', serif;
+   
 }
 
 .uk-input, .uk-select, .uk-textarea {
@@ -138,14 +140,12 @@ address, dl, fieldset, figure, ol, p, pre, ul {
     text-align: center;
 }
 .footer__container{background-color: #eee8dc;}
-
-
-
-
 .footer__titulos__border-botton{border-bottom: black solid 1px;}
 .contact__titulo__border-botton{border-bottom: #a9803c solid 1px;}
 
-/*Contacto*/
+/*otra seccion
+
+Contacto*/
 .contact__section__map__container{width: 100%;}
 .contact__map__container{display: flex;justify-content: center;}
 .mapa{width: 100%;}
@@ -185,12 +185,7 @@ address, dl, fieldset, figure, ol, p, pre, ul {
 .contact__form__emailTelefono__container{display: flex;width: 640px;}
 
 
-/*fontfamily*/
-.font__productosyTexto{
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 1px; 
-}
-.font__titulos{font-family: 'Noto Serif', serif;}
+
 
 
 
